@@ -1,4 +1,4 @@
-# 🚀 Codsoft Python Projects
+# 🚀 CodSoft Python Projects
 
 A collection of four specialized console-driven applications ranging from productivity tools to algorithmic simulations.
 

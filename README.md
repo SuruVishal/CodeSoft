@@ -60,6 +60,8 @@ A security tool engineered to construct high-entropy strings adhering to specifi
 
 ### Deployment Instructions
 
+
 1. **Clone the Version-Controlled Repository:**
 ```bash
-   git clone [https://github.com/SuruVishal/CodeSoft.git](https://github.com/SuruVishal/CodeSoft.git)
+git clone https://github.com/SuruVishal/CodeSoft.git
+```

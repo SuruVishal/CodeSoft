@@ -42,6 +42,7 @@ def remove_task():
         except (ValueError, IndexError):
             print("Invalid number.")
 
+
 def main():
     while True:
         show_menu()
@@ -60,6 +61,7 @@ def main():
             break
         else:
             print("Invalid choice.")
+
 
 if __name__ == "__main__":
     main()

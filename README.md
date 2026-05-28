@@ -80,7 +80,3 @@ A security tool engineered to generate cryptographically robust strings based on
     Simply execute the Python commands listed in the functional specifications above for the desired tool.
 
 ---
-
-## 📝 License
-This project is open-source and available under the **MIT License**.
-

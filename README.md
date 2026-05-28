@@ -1,67 +1,86 @@
-# CodeSoft Core Programming Projects
+# 🚀 Codesoft Python Projects
 
-Development repository for Python-based software utilities, focusing on algorithm design, automation, and interactive systems.
-
----
-
-## 📂 Repository Architecture
-
-This repository contains a structured suite of modular Python applications designed to address core scripting and logic challenges.
-
-| Module | Filename | Description |
-| :--- | :--- | :--- |
-| **01** | `01.To do list.py` | A command-line interface (CLI) application for task scheduling and lifecycle management. |
-| **02** | `02.Calculator.py` | An arithmetic engine implementing fundamental mathematical operations. |
-| **03** | `03.Rockpaper game.py` | A game simulation leveraging pseudo-random number generation for automated matchmaking. |
-| **04** | `04.Password generator.py` | A security utility executing cryptographic-style character randomization for password synthesis. |
+A collection of four specialized console-driven applications ranging from productivity tools to algorithmic simulations.
 
 ---
 
 ## 🛠️ Detailed Functional Specifications
 
-### 1. Task Lifecycle Management (`01.To do list.py`)
+### 1. Task Lifecycle Management
+`01.To do list.py`
+
 A console-driven productivity application designed to manage data structures representing user objectives.
-*   **Key Capabilities:** Dynamic task insertion, real-time enumeration, completion status modification, and volatile index deletion.
-*   **Execution Command:**
-```bash
+
+* **Key Capabilities:** Dynamic task insertion, real-time enumeration, completion status modification, and volatile index deletion.
+* **Execution Command:**
+    ```bash
     python "01.To do list.py"
     ```
 
-### 2. Arithmetic Engine (`02.Calculator.py`)
-A mathematical computation script utilizing basic control structures to deliver precise input evaluation.
-*   **Key Capabilities:** Functional abstraction for addition, subtraction, multiplication, and division, coupled with runtime division-by-zero error handling.
-*   **Execution Command:**
-```bash
+---
+
+### 2. Arithmetic Engine
+`02.Calculator.py`
+
+A mathematical computation script engineered for precision handling of basic and complex arithmetic operations.
+
+* **Key Capabilities:** Fundamental arithmetic (Addition, Subtraction, Multiplication, Division) with error handling for zero-division.
+* **Execution Command:**
+    ```bash
     python "02.Calculator.py"
     ```
 
-### 3. Algorithmic Game Simulation (`03.Rockpaper game.py`)
-An interactive implementation of the classic game theory puzzle, processing deterministic user choices against simulated variables.
-*   **Key Capabilities:** Real-time evaluation of winning matrices, user-to-computer data validation, and persistent state/score keeping across sessions.
-*   **Execution Command:**
-```bash
+---
+
+### 3. Algorithmic Game Simulation
+`03.Rockpaper game.py`
+
+An interactive implementation of the classic Roshambo game, utilizing randomized logic for CPU decision-making.
+
+* **Key Capabilities:** Real-time user input validation, score tracking, and automated opponent logic.
+* **Execution Command:**
+    ```bash
     python "03.Rockpaper game.py"
     ```
 
-### 4. Dynamic Password Synthesizer (`04.Password generator.py`)
-A security tool engineered to construct high-entropy strings adhering to specific cryptographic complexity rules.
-*   **Key Capabilities:** User-defined character array length constraints, and automated blending of alphanumeric characters, casing, and symbol arrays.
-*   **Execution Command:**
-```bash
+---
+
+### 4. Dynamic Password Synthesizer
+`04.Password generator.py`
+
+A security tool engineered to generate cryptographically robust strings based on user-defined entropy requirements.
+
+* **Key Capabilities:** Customizable length, character set complexity (symbols, numbers, casing), and instant clipboard-ready output.
+* **Execution Command:**
+    ```bash
     python "04.Password generator.py"
     ```
 
 ---
 
-## 🚀 Environment Setup and Installation
+## 🚀 Environment Setup and Deployment
 
 ### Prerequisites
-*   Python 3.x interpreter environment configured in the system PATH.
+* **Python 3.x** interpreter environment.
+* Access to a terminal or command prompt.
 
 ### Deployment Instructions
 
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```
 
-1. **Clone the Version-Controlled Repository:**
-```bash
-git clone https://github.com/SuruVishal/CodeSoft.git
-```
+2.  **Navigate to Directory**
+    ```bash
+    cd YOUR_REPO_NAME
+    ```
+
+3.  **Run Applications**
+    Simply execute the Python commands listed in the functional specifications above for the desired tool.
+
+---
+
+## 📝 License
+This project is open-source and available under the **MIT License**.
+
